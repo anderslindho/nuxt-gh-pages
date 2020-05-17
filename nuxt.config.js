@@ -42,6 +42,10 @@ export default {
   modules: [
   ],
   /*
+   * Router settings (for subdir to work)
+   */
+  router: { base: '/nuxt-gh-pages/' },
+  /*
   ** Build configuration
   */
   build: {
