@@ -1,0 +1,4 @@
+[submodule "dist"]
+	path = dist
+	url = https://github.com/anderslindho/nuxt-site.git
+	branch = gh-pages
