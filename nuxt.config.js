@@ -1,15 +1,9 @@
 
 export default {
   mode: 'universal',
-  /*
-   * Router settings (for subdir to work)
-   */
   router: {
-    base: '/nuxt-gh-pages/' 
+    base: '/nuxt-gh-pages/'
   },
-  /*
-  ** Headers of the page
-  */
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -25,19 +19,10 @@ export default {
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
-  /*
-  ** Global CSS
-  */
   css: [
   ],
-  /*
-  ** Plugins to load before mounting the App
-  */
   plugins: [
   ],
-  /*
-  ** Nuxt.js dev-modules
-  */
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
@@ -47,13 +32,7 @@ export default {
   */
   modules: [
   ],
-  /*
-  ** Build configuration
-  */
   build: {
-    /*
-    ** You can extend webpack config here
-    */
     extend (config, ctx) {
     }
   }
