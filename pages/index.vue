@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">
-        nuxt-gh-pages
+        nuxt-site
       </h1>
       <h2 class="subtitle">
         My groovy Nuxt.js project
