@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-gh-pages",
+  "name": "nuxt-site",
   "version": "1.0.0",
   "description": "My groovy Nuxt.js project",
-  "author": "anderslindho",
+  "author": "Anders Lindh Olsson",
   "private": true,
   "scripts": {
     "dev": "nuxt",
