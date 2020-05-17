@@ -4,7 +4,9 @@ export default {
   /*
    * Router settings (for subdir to work)
    */
-  // router: { base: '/nuxt-gh-pages/' },
+  router: {
+    base: '/nuxt-gh-pages/' 
+  },
   /*
   ** Headers of the page
   */
