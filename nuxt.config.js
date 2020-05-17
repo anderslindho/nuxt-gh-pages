@@ -2,6 +2,10 @@
 export default {
   mode: 'universal',
   /*
+   * Router settings (for subdir to work)
+   */
+  // router: { base: '/nuxt-gh-pages/' },
+  /*
   ** Headers of the page
   */
   head: {
@@ -41,10 +45,6 @@ export default {
   */
   modules: [
   ],
-  /*
-   * Router settings (for subdir to work)
-   */
-  router: { base: '/nuxt-gh-pages/' },
   /*
   ** Build configuration
   */
